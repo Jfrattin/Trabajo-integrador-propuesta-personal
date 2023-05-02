@@ -31,6 +31,7 @@ div.banner > h1 {
 	background-color: #fff;
 	background-position: 20rem;
 	font-size: 7rem;
+	width: 100%;
 	font-weight: 1000;
 	color: #fff;
 	text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
