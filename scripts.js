@@ -24,7 +24,7 @@ const hiddenElements = document.querySelectorAll("div.hidden");
 hiddenElements.forEach((el) => observer.observe(el));
 
 
-document.getElementById('exampleInputEmail1').addEventListener('input', function() {z
+document.getElementById('exampleInputEmail1').addEventListener('input', function() {
     campo = event.target;
     valido = document.getElementById('emailOK');
         
@@ -32,7 +32,10 @@ document.getElementById('exampleInputEmail1').addEventListener('input', function
     //Se muestra un texto a modo de ejemplo, luego va a ser un icono
     if (emailRegex.test(campo.value)) {
       valido.innerText = "válido";
+	  valido.style.color = "Green"
     } else {
       valido.innerText = "incorrecto";
+	  valido.style.color = "Red"
+	  
     }
 });
