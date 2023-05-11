@@ -150,7 +150,6 @@ div.footer-wrapper {
 	align-content: baseline;
 }
 
-div.id-letter,
 div.useful-links {
 	width: 50%;
 	height: auto;
@@ -178,7 +177,7 @@ div.useful-links > ul > li > a {
 
 @media (max-width: 756px) {
 	div.banner > h1 {
-		font-size: 4.6em;
+		font-size: 3.5rem;
 	}
 
 	div.wrapper {
@@ -190,6 +189,8 @@ div.useful-links > ul > li > a {
 		display: flex;
 		flex-direction: column-reverse;
 	}
+
+
 }
 
 
